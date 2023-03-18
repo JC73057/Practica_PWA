@@ -45,7 +45,7 @@ h1 {
     padding: 1rem 0;
   }
   .card {
-    display:flex;
+    display:table-column-group;
     align-items:center;
     flex-direction:column-reverse;
     width: 15rem auto;
@@ -56,7 +56,6 @@ h1 {
     margin: auto;
     overflow: hidden;
   }
-  
   .card--avatar {
     display: flex;
     width: 100%;
@@ -70,11 +69,9 @@ h1 {
     font-size: 1.1rem;
     margin-top: 0.5rem;
   }
-
-  
   .card--link {
     text-decoration: none;
-    background: #ec5949;
+    background: #db4938;
     color: #fff;
     padding: 0.3rem 1rem;
     border-radius: 20px;
